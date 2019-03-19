@@ -1,9 +1,12 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public class Main {
 
-    public static void main(String[] args) {
-        var s = "Java 10!!";
-        System.out.println(s);
-    }
+	public static void main(String[] args) {
+		var s = new ArrayList<>();
+		s.add("a");
+		System.out.println(s);
+	}
 }
